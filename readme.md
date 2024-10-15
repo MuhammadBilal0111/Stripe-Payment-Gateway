@@ -62,13 +62,20 @@ This project demonstrates how to integrate **Stripe's payment gateway** in a ful
     npm install
     ```
 
-6. **Start the React development server:**
+6. **Configure environment variables:**
+
+    - Create a `.env` file in the `client` directory and add your stripe public key
+
+      ```bash
+      VITE_APP_KEY=pk_test_xxxxxxxxxxxxxxxxxxxxxxxx
+      ```
+7. **Start the React development server:**
 
     ```bash
-    npm start
+    npm run dev
     ```
 
-   This will start the React app on `http://localhost:3001`.
+   This will start the vite on `http://localhost:5173`.
 
 ## Contributing
 
