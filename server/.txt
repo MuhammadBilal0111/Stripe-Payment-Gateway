@@ -1,0 +1,1 @@
+Only component that we are going to need is react-stripe-ckeckout
