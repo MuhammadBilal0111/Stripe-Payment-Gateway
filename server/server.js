@@ -1,6 +1,6 @@
 const dotenv = require("dotenv");
-const app = require("./app");
 dotenv.config({ path: ".env" });
+const app = require("./app");
 
 // publishers key goes to the frontend but the secret key goes to the backend
 const port = process.env.PORT;

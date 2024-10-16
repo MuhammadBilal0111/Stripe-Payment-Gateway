@@ -4,6 +4,7 @@ const { v4: uuidv4 } = require("uuid");
 const stripe = require("stripe")(`${process.env.STRIPE_SECRET_KEY}`);
 const app = express();
 
+console.log(process.env.STRIPE_SECRET_KEY);
 // middleware
 app.use(express.json());
 app.use(cors()); // cross-origin resource sharing
